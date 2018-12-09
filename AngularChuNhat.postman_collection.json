@@ -1,0 +1,104 @@
+{
+	"variables": [],
+	"info": {
+		"name": "AngularChuNhat",
+		"_postman_id": "bb8c9274-3fb0-5655-875e-affbb0d758c6",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get All Posts",
+			"request": {
+				"url": "https://tranquil-lake-48038.herokuapp.com/posts",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get Post By Id",
+			"request": {
+				"url": "https://tranquil-lake-48038.herokuapp.com/posts/-8267399701785799246",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get Post By ID Failed",
+			"request": {
+				"url": "https://tranquil-lake-48038.herokuapp.com/posts/-8388852577418775728",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "create new Post",
+			"request": {
+				"url": "https://tranquil-lake-48038.herokuapp.com/posts",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"image\": \"https://cdn.filestackcontent.com/1baZqjlPSjuJRG8v0EWo\",\n    \"title\": \"Học Angular 7\",\n    \"content\": \"Angular-cli sử dụng Webpack để bundle project của bạn, vì thế bạn hoàn toàn có thể sử dụng HMR để tăng tốc quá trình build app trong lúc lập trình (tức là lúc bạn sửa một dòng code, thay vì phải compile toàn bộ các module thì nó chỉ compile các module bị ảnh hưởng bởi dòng code đó mà thôi).\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update Post",
+			"request": {
+				"url": "https://tranquil-lake-48038.herokuapp.com/posts/-7704605488559199933",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"image\": \"https://cdn.filestackcontent.com/1baZqjlPSjuJRG8v0EWo\",\n    \"title\": \"Học Angular 8\",\n    \"content\": \"Angular-cli sử dụng Webpack để bundle project của bạn, vì thế bạn hoàn toàn có thể sử dụng HMR để tăng tốc quá trình build app trong lúc lập trình (tức là lúc bạn sửa một dòng code, thay vì phải compile toàn bộ các module thì nó chỉ compile các module bị ảnh hưởng bởi dòng code đó mà thôi).\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete Post",
+			"request": {
+				"url": "https://tranquil-lake-48038.herokuapp.com/posts/-6262396648921511015",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

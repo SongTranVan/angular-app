@@ -1,0 +1,19 @@
+p {
+  color: #369;
+  text-align: center;
+  font-size: 150%;
+}
+
+.logo {
+  animation: logo-spin infinite 5s linear;
+  height: 5vmin;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

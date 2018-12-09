@@ -1,0 +1,27 @@
+table, tr, th {
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+
+table {
+	margin: auto;
+	width: 80%;
+}
+
+th, tr {
+	padding: 15px;
+}
+
+tr {
+	text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #369;
+}
+
+.post-list {
+	display: flex;
+	flex-wrap: wrap;
+}

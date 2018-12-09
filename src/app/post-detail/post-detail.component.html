@@ -1,0 +1,7 @@
+<div class="post-detail">
+    <img src="{{post.image}}"  />
+    <h1>{{post.title}}</h1>
+    <p>{{post.content}}</p>
+    <button class="btn btn-outline-warning"><a routerLink="/editPost/{{post.id}}">Edit</a></button>
+    <button class="btn btn-outline-warning" (click)="deletePost()">Delete</button>
+</div>

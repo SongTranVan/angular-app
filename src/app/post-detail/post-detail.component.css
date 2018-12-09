@@ -1,0 +1,10 @@
+.post-detail {
+    max-width: 400px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+}
+
+.post-detail img {
+    max-width: 400px;
+}
